@@ -1,3 +1,4 @@
+#pragma once
 typedef struct Vec2 {
     float x;
     float y;
@@ -6,7 +7,7 @@ typedef struct Vec2 {
 typedef struct iVec2 {
     int x;
     int y;
-} iVec2
+} iVec2;
 
 typedef struct Vec3 {
     float x;
@@ -18,4 +19,4 @@ typedef struct iVec3 {
     int x;
     int y;
     int z;
-} iVec3
+} iVec3;

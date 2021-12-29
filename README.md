@@ -26,21 +26,17 @@ Features are added whenever I need them for some side project, so the repo may m
 
 ## Functions
 ### Utilities
-- Create a Vector (create_<VecType>)
-- Print the contents of a vector (print_<VecType>)
-- Distance (dist_<Vec2Type>) (int -> Manhattan, float -> Euclidean) 
-- Normalize (norm_<VecType>) (Not for integer vectors)
+- [ ] Create a Vector (create_<VecType>)
+- [ ] Print the contents of a vector (print_<VecType>)
+- [ ] Distance (dist_<Vec2Type>) (int -> Manhattan, float -> Euclidean) 
+- [ ] Normalize (norm_<VecType>) (Not for integer vectors)
 
 ### Calculations
-- Add scalar to Vector (addn_<VecType>)
-- Add Vector to Vector (add_<VecType>)
-- Subtract scalar from Vector (subn_<VecType>)
-- Subtract Vector from Vector (sub_<VecType>)
-- Multiply Vector with scalar (multn_<VecType>)
-- Element-wise multiplication (mult_<VecType>)
-
-
-
-
-
-
+- [ ] Add scalar to Vector (addn_<VecType>)
+- [ ] Add Vector to Vector (add_<VecType>)
+- [ ] Subtract scalar from Vector (subn_<VecType>)
+- [ ] Subtract Vector from Vector (sub_<VecType>)
+- [ ] Multiply Vector with scalar (multn_<VecType>)
+- [ ] Element-wise multiplication (mult_<VecType>)
+- [ ] Divide Vector by scalar (sivn_<VecType>)
+- [ ] Element-wise division (div_<VecType>)
