@@ -9,5 +9,6 @@ ar rc libTestLinAlg.a *.o
 rm -f *.o
 ranlib libTestLinAlg.a
 
-mkdir -p ../tests/build
-mv libTestLinAlg.a ../tests/build/
+./run_tests.sh
+
+rm libTestLinAlg.a

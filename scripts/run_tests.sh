@@ -3,8 +3,8 @@
 CC="gcc"
 CFLAGS="-Wall -Wextra -Werror -std=c17 -pedantic"
 
-$CC $CFLAGS -I ../include -c *.c
-$CC $CFLAGS -o tests *.o -Lbuild -lTestLinAlg -lm
+$CC $CFLAGS -I ../include -c ../tests/*.c
+$CC $CFLAGS -o tests *.o -L. -lTestLinAlg -lm
 
 rm -f *.o
 
